@@ -1,0 +1,45 @@
+.loge {
+  background: #59ffd3;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.parket {
+  background: #eeff59;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.Leinwand {
+  width: 600px;
+  height: 100px;
+  background-color: burlywood;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  place-items: center;
+  width: max-content;
+}
+.salle {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.loge-platz-reserviert {
+  background: red;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.parket-platz-reserviert {
+  background: red;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
